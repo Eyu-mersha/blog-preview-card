@@ -6,16 +6,21 @@ html{
 body{
     background-color: hsl(47, 88%, 63%);
     margin-top:15vh;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 .container{
     width: 280px;
     background-color: white;
     margin: auto;
-    height: 65vh;
+    height: 67vh;
     padding: 10px;
     border-radius: 15px;
     border: 1px solid black;
     box-shadow: 5px 5px black;
+    margin-bottom: 10px;
 }
 .container .upper-part img{
     width: 100%;
@@ -27,20 +32,33 @@ body{
 .container .lower-part h6{
     background-color: hsl(47, 88%, 63%);
     width: fit-content;
-    font-size: small;
+    font-size: 17px;
     font-weight: bolder;
-    padding: 3px 8px;
-    margin: 20px 0px;
+    padding: 5px 12px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 6px;
 }
 .container .lower-part p{
     font-size: medium;
+    color:black;
 }
 .container .lower-part h3{
     margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.container .lower-part h3:hover{
+    color: hsl(47, 88%, 63%);
+}
+.lower-part .lowerPara{
+    font-weight: 600;
+    font-size: 10px;
 }
 .avatar{
   display: flex;
   align-items: center;
+  font-weight: 800;
+  font-size: small;
 }
 .avatar img{
     width: 40px;
